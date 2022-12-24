@@ -13,3 +13,19 @@ Each test case consists of one line containing an expression of the form a+b (0â
 
 Output
 For each test case, print one integer â€” the result of the expression.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int a,b;
+       scanf("%d + %d",&a,&b);
+       int sum=a+b;
+       cout<<sum<<endl;
+    }
+    return 0;
+}
